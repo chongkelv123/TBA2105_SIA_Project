@@ -1,0 +1,23 @@
+# R history and session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Raw data (too large for Git)
+data_raw/
+
+# Sensitive or large files
+*.html
+*.json
+*.log
+
+# R environment
+.Renviron
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
