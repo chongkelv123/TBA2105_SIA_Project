@@ -1,0 +1,7 @@
+model,dataset,type,accuracy,f1_score
+Logistic Regression,Training,3-Class,0.47151898734177217,0.41799665996387303
+Logistic Regression,Validation,3-Class,0.5970149253731343,0.4507503699006552
+Logistic Regression,Test,3-Class,0.2463768115942029,0.239852047738802
+Logistic Regression,Training,Binary,0.6139240506329114,0.7239819004524888
+Logistic Regression,Validation,Binary,0.5223880597014925,0.5897435897435898
+Logistic Regression,Test,Binary,0.6666666666666666,0.780952380952381
