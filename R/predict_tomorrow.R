@@ -1,7 +1,7 @@
 # ============================================================================
 # SIMPLE DAILY PREDICTION SCRIPT
 # ============================================================================
-# Purpose: Make tomorrow's stock prediction using your trained model
+# Purpose: Make tomorrow's stock prediction using trained model
 # Usage: source("predict_tomorrow.R")
 # Author: Kelvin Chong
 # Date: November 5, 2025
@@ -146,9 +146,11 @@ cat("=====================================\n")
 cat("PREDICTION RESULTS\n")
 cat("=====================================\n\n")
 
-cat("📅 Prediction Date: ")
+cat("📅 Last Trading Day: ")
+cat(as.character(prediction_result$date))
+cat("\n📅 Prediction For: ")
 cat(as.character(prediction_result$date + 1))
-cat("\n")
+cat(" (Next trading day)\n")
 
 cat("📊 Ticker: ")
 cat(as.character(prediction_result$ticker))
